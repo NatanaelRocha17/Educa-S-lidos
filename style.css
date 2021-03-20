@@ -1,0 +1,294 @@
+body{
+    margin: 0px;
+    background-color: #D4E499;
+}
+#menu{
+    background-color: rgb(255, 255, 255);
+}
+#img1{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    
+}
+#img2{
+  width: 50%;
+  visibility: hidden;
+}
+#foto1{
+   
+    width: 13%;  
+
+}
+h2{
+    text-align: center;
+}
+h4{
+  text-align: center;
+  font-size: 18pt;
+  padding-left: 0px;
+
+}
+#nome{
+    font-size: 60pt;
+    padding-top: 15%;
+    margin-left: 20%;
+    color: rgb(31, 138, 9);
+    font-family: 'Berkshire Swash', cursive;
+}
+#capa{
+    width: 100%;
+    height: 630px;
+    background-image: url("fotos/earth-159123_960_720.webp");
+    background-repeat: no-repeat;
+    background-position: 100% 0% ;
+    background-size: 36%;
+   
+
+   
+}
+h1{
+    margin: 0px;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  /*box-sizing: border-box;*/
+}
+#botao{
+  background-color: #D4E499;
+  width: 100%;
+  height: 100px;
+}
+h2{
+  background-color: #D4E499;
+  
+}
+#botao1{
+  margin-top: 40px;
+    margin-left: 43.5%;  
+  background-color: rgb(33, 168, 6);
+  border-radius: 40px;
+  width: 179px;
+  height: 25px;
+  font-size: 12pt;
+  border: solid 4px rgb(255, 243, 82);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#jogodamemoria {
+  height: 100vh;
+  display: flex;
+  background: #D4E499;
+}
+
+#cardboard {
+  width: 640px;
+  height: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memory-card {
+  width: calc(25% - 10px);
+  height: 33%;
+  margin: 5px;
+  transform-style: preserve-3d;
+  transition: 0.3s;
+  position: relative;
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  position: absolute;
+  background: #196d04;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+
+  
+  #creditos{
+      padding-top: 10px;
+      background-color: rgb(255, 187, 1);
+  }
+#quiz{
+  padding: 20px;
+  padding-left: 200px;
+  font-size: 15pt;
+}
+#botao2{
+  margin-left: 37%;
+  font-size: 13pt;
+  width: 10%;
+  border-radius: 20px;
+}
+
+  @media screen and (max-width:800px){
+    
+    nav{visibility: hidden;}
+    body{
+      margin: 0px;
+  }
+  #menu{
+      background-color: rgb(255, 255, 255);
+  }
+  #img1{
+      padding: 0px;
+      margin: 0px;
+      width: 0px;
+      visibility: hidden;
+  }
+  #foto1{
+     
+  font-size: 10pt;
+  
+  }
+  h2{
+      text-align: center;
+  }
+  
+  #nome{
+      font-size: 40pt;
+      padding-top: 115%;
+      
+    margin:0px;
+    width: 100%;
+    text-align: center;
+      color: rgb(31, 138, 9);
+      
+  }
+  #img2{
+    width: 50%;
+  }
+  #img2a{
+   
+    margin-top: 28%;
+  }
+  #capa{
+      width: 100%;
+      height: 490px;
+      background-image: url("fotos/earth-159123_960_720.webp");
+      background-repeat: no-repeat;
+      background-color:#d4e499;
+      background-position: 50% 40%;
+      background-size: 80%;
+     
+
+  }
+  
+  h1{
+      margin: 0px;
+      float: left;
+  }
+  
+  h4{
+    margin-top: 50px;
+  }
+  #botao{
+    margin-top: 15%;
+    background-color: #D4E499;
+    width: 100%;
+    height: 100px;
+    padding-right: 150px;
+  }
+  h2{
+    background-color: #D4E499;
+    
+  }
+  #botao1{
+    margin-top: 38%;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 189px;
+    height: 25px;
+    font-size: 12pt;
+    color: white;
+    border: solid 4px rgb(0, 158, 21);
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  #jogodamemoria {
+    height: 55vh;
+    display: flex;
+    background: #D4E499;
+    margin: auto;
+  }
+  
+  #cardboard {
+   
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: 42%;
+    margin: 5px;
+    transform-style: preserve-3d;
+    transition: 0.3s;
+    position: relative;
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    background: #009721;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+  #quiz{
+    padding: 20px;
+    font-size: 18pt;
+    padding-top: 0px;
+  }
+  #botao2{
+    margin-left: 30%;
+    font-size: 13pt;
+    width: 40%;
+    border-radius: 20px;
+  }
+
+}
+
+  
